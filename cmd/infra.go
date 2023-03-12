@@ -120,10 +120,10 @@ func LoadUserExampleProps() ExampleProps {
 	user_input_instance := load.Instances([]string{"."}, nil)[0]
 	user_input := ctx.BuildInstance(user_input_instance)
 
-	user_schema.Unify(user_input)
+	unified_input := user_schema.Unify(user_input)
 
 	var example_props ExampleProps
-	user_input.LookupPath(cue.ParsePath("input")).Decode(&example_props)
+	unified_input.LookupPath(cue.ParsePath("input")).Decode(&example_props)
 
 	return example_props
 }
