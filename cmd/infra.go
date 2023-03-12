@@ -30,6 +30,11 @@ to quickly create a Cobra application.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		example_props := LoadUserExampleProps()
 
+		if example_props == (ExampleProps{}) {
+			fmt.Printf("Error: for details, run: cue vet main.cue cmd/infra.cue\n")
+			return
+		}
+
 		fmt.Printf("%v\n", example_props)
 
 		app := cdktf.NewApp(nil)
