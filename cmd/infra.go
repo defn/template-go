@@ -85,19 +85,22 @@ type DogAnimal struct {
 	Name string `json:"name"`
 }
 
-// alias
+//lint:ignore U1000 utility
 func js(s string) *string {
 	return jsii.String(s)
 }
 
+//lint:ignore U1000 utility
 func jsn(v float64) *float64 {
 	return jsii.Number(v)
 }
 
+//lint:ignore U1000 utility
 func jsf(s string, a ...any) *string {
 	return js(fmt.Sprintf(s, a...))
 }
 
+//lint:ignore U1000 utility
 func jstrue() *bool {
 	return jsii.Bool(true)
 }
