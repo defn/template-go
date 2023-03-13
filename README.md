@@ -4,39 +4,40 @@ Install `nix` and finish `direnv` integration.
 
 ## Using the CLI
 
-The compile and install the CLI:
-
-```
-go install
-```
-
 Run the CLI:
 
 ```
-template-go-cli
-```
-
-Run the API server:
-
-```
-template-go-cli api
+go run .
 ```
 
 Run the TUI:
 
 ```
-template-go-cli tui
+go run . tui
+```
+
+Run the GRPC server:
+
+```
+go run . server
+```
+
+Run the GRPC client:
+
+```
+go run . server
 ```
 
 Run the cdktf generator:
 
 ```
-template-go-cli infra
+go run . infra
 ```
 
 Load and verify bash completion:
 
 ```
+go install
 source /etc/profile.d/bash_completion.sh
 eval "$(template-go-cli completion bash)"
 complete -p template-go-cli
