@@ -25,7 +25,7 @@ go run . server
 Run the GRPC client:
 
 ```
-go run . server
+go run . client
 ```
 
 Run the cdktf generator:
