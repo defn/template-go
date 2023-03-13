@@ -12,7 +12,10 @@ ENVTEST_KUBEBUILDER_VERSION ?= 1.25.x!
 
 all:
 	test -s $(CONTROLLER_GEN) || GOBIN=$(shell pwd)/bin go install sigs.k8s.io/controller-tools/cmd/controller-gen@$(CONTROLLER_TOOLS_VERSION)
-	test -s $(ENVTEST) || GOBIN=$(shell pwd)/bin go install sigs.k8s.io/controller-runtime/tools/setup-envtest@$(ENVTEST_TOOLS_VERSION)
-	$(ENVTEST) use -p path $(ENVTEST_KUBEBUILDER_VERSION) --bin-dir ./bin/; echo
 	$(CONTROLLER_GEN) rbac:roleName=manager-role crd webhook paths="./..." output:crd:artifacts:config=config/crd/bases
 	$(CONTROLLER_GEN) object:headerFile="hack/boilerplate.go.txt" paths="./..."
+
+test:
+	test -s $(ENVTEST) || GOBIN=$(shell pwd)/bin go install sigs.k8s.io/controller-runtime/tools/setup-envtest@$(ENVTEST_TOOLS_VERSION)
+	env KUBEBUILDER_ASSETS="$(shell $(ENVTEST) use $(ENVTEST_KUBEBUILDER_VERSION) --bin-dir ./bin/ -p path)" \
+		go test ./... -coverprofile cover.out
