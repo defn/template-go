@@ -491,17 +491,17 @@
       },
       "locked": {
         "dir": "godev",
-        "lastModified": 1678677281,
-        "narHash": "sha256-D1sB0aPXm8lZkZOPsNRnooNYiEz3CeFWi3fEK2WydKk=",
+        "lastModified": 1678677406,
+        "narHash": "sha256-yVwNoU4BG4748tzRL5Noi1ttzU/iB+TfjXKnJmx6Tcw=",
         "owner": "defn",
         "repo": "pkg",
-        "rev": "772ca4d824e92765265071f041c0962d0dfde1b8",
+        "rev": "100785224be8bb6c014284ab47b8e1775bb052ec",
         "type": "github"
       },
       "original": {
         "dir": "godev",
         "owner": "defn",
-        "ref": "godev-0.0.8",
+        "ref": "godev-0.0.9",
         "repo": "pkg",
         "type": "github"
       }
@@ -967,16 +967,16 @@
         "terraform": "terraform_2"
       },
       "locked": {
-        "lastModified": 1678677306,
-        "narHash": "sha256-KgkbWq+J+RR6cD80/5vJhefmCGMVvCalGmEbmQJ/E+0=",
+        "lastModified": 1678677437,
+        "narHash": "sha256-xTG1rnve+jSFZK38VAGXDn12r2gQXy/PREAvLvq5eaE=",
         "owner": "defn",
         "repo": "lib",
-        "rev": "26347cacf467c4757a92cbdf617d4094ccf14fae",
+        "rev": "801a0665fb3ba43346da69788781233c5d398db2",
         "type": "github"
       },
       "original": {
         "owner": "defn",
-        "ref": "0.0.66",
+        "ref": "0.0.67",
         "repo": "lib",
         "type": "github"
       }

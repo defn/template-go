@@ -1,5 +1,5 @@
 {
-  inputs.lib.url = github:defn/lib/0.0.66;
+  inputs.lib.url = github:defn/lib/0.0.67;
   outputs = inputs: inputs.lib.goMain rec {
     src = ./.;
 
