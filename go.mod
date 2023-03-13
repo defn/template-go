@@ -4,8 +4,9 @@ go 1.19
 
 require (
 	cuelang.org/go v0.4.3
-	github.com/aws/constructs-go/constructs/v10 v10.1.275
+	github.com/aws/constructs-go/constructs/v10 v10.1.276
 	github.com/aws/jsii-runtime-go v1.77.0
+	github.com/bufbuild/connect-go v1.5.2
 	github.com/cdktf/cdktf-provider-tfe-go/tfe/v5 v5.0.1
 	github.com/charmbracelet/bubbles v0.15.0
 	github.com/charmbracelet/bubbletea v0.23.2
@@ -14,6 +15,8 @@ require (
 	github.com/hashicorp/terraform-cdk-go/cdktf v0.15.5
 	github.com/spf13/cobra v1.6.1
 	github.com/spf13/viper v1.15.0
+	golang.org/x/net v0.8.0
+	google.golang.org/protobuf v1.29.0
 )
 
 require (
@@ -68,13 +71,11 @@ require (
 	golang.org/x/crypto v0.7.0 // indirect
 	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616 // indirect
 	golang.org/x/mod v0.9.0 // indirect
-	golang.org/x/net v0.8.0 // indirect
 	golang.org/x/sync v0.1.0 // indirect
 	golang.org/x/sys v0.6.0 // indirect
 	golang.org/x/term v0.6.0 // indirect
 	golang.org/x/text v0.8.0 // indirect
 	golang.org/x/tools v0.7.0 // indirect
-	google.golang.org/protobuf v1.29.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )

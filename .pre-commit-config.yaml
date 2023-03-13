@@ -14,5 +14,8 @@ repos:
     rev: v1.0.0-rc.1
     hooks:
       - id: go-mod-tidy
+        exclude: ^gen
       - id: go-build-mod
+        exclude: ^gen
       - id: go-imports
+        exclude: ^gen

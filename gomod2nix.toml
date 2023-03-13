@@ -11,14 +11,17 @@ schema = 3
     version = "v0.1.4"
     hash = "sha256-ZZ7U5X0gWOu8zcjZcWbcpzGOGdycwq0TjTFh/eZHjXk="
   [mod."github.com/aws/constructs-go/constructs/v10"]
-    version = "v10.1.275"
-    hash = "sha256-sQdZykCDktJGNm/KItmvzsCjJ3zVfXPLxwQLh2vyEnw="
+    version = "v10.1.276"
+    hash = "sha256-UwcW3Ytwwdf/t8HehZtJ1SDyMxeUvso5WeW7nLRg1L8="
   [mod."github.com/aws/jsii-runtime-go"]
     version = "v1.77.0"
     hash = "sha256-Ck0SFJf1CHXDHioeZ9VgDcUFW6MxA7vVtY+8pGDXQoQ="
   [mod."github.com/aymanbagabas/go-osc52/v2"]
     version = "v2.0.1"
     hash = "sha256-6Bp0jBZ6npvsYcKZGHHIUSVSTAMEyieweAX2YAKDjjg="
+  [mod."github.com/bufbuild/connect-go"]
+    version = "v1.5.2"
+    hash = "sha256-tZNMxheADUhHBOKtFBezOYiLWTR0Ztviq05ogh+uwXw="
   [mod."github.com/bytedance/sonic"]
     version = "v1.8.3"
     hash = "sha256-LycAuvl0XK+Xx1oUMYXt9sbT7N2T3EgpcPKjLzY+wVU="
