@@ -6,6 +6,6 @@ input: {
 		workspace:    "example"
 	}
 
-	dog: name: "roger"
-	cat: name: "wendy"
+	dog: {}
+	cat: {}
 }

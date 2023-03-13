@@ -10,11 +10,11 @@
 }
 
 #Dog: {
-    name: string
+    name: string | *"dog"
 }
 
 #Cat: {
-    name: string
+    name: string | *"cat"
 }
 
 input: #Input
