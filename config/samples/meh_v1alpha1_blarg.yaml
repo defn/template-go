@@ -1,0 +1,12 @@
+apiVersion: meh.defn.dev/v1alpha1
+kind: Blarg
+metadata:
+  labels:
+    app.kubernetes.io/name: blarg
+    app.kubernetes.io/instance: blarg-sample
+    app.kubernetes.io/part-of: template-go-cli
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: template-go-cli
+  name: blarg-sample
+spec:
+  # TODO(user): Add fields here

@@ -1,0 +1,28 @@
+domain: defn.dev
+layout:
+- go.kubebuilder.io/v3
+plugins:
+  manifests.sdk.operatorframework.io/v2: {}
+  scorecard.sdk.operatorframework.io/v2: {}
+projectName: template-go-cli
+repo: github.com/defn/template-go-cli
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: defn.dev
+  group: meh
+  kind: Blarg
+  path: github.com/defn/template-go-cli/api/v1alpha1
+  version: v1alpha1
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: defn.dev
+  group: meh
+  kind: Hrnngg
+  path: github.com/defn/template-go-cli/api/v1alpha1
+  version: v1alpha1
+version: "3"
