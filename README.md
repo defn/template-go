@@ -16,10 +16,22 @@ Run the CLI:
 template-go-cli
 ```
 
-Run the CLI server:
+Run the API server:
 
 ```
-template-go-cli start
+template-go-cli api
+```
+
+Run the TUI:
+
+```
+template-go-cli tui
+```
+
+Run the cdktf generator:
+
+```
+template-go-cli infra
 ```
 
 Load and verify bash completion:
