@@ -10,12 +10,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	petv1 "github.com/defn/template-go-cli/gen/pet/v1"
-	"github.com/defn/template-go-cli/gen/pet/v1/petv1connect"
-
 	"github.com/bufbuild/connect-go"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
+
+	petv1 "github.com/defn/template-go-cli/gen/pet/v1"
+	"github.com/defn/template-go-cli/gen/pet/v1/petv1connect"
 )
 
 var serverCmd = &cobra.Command{
