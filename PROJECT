@@ -1,6 +1,6 @@
 domain: defn.dev
 layout:
-- go.kubebuilder.io/v3
+- go.kubebuilder.io/v4-alpha
 plugins:
   manifests.sdk.operatorframework.io/v2: {}
   scorecard.sdk.operatorframework.io/v2: {}
@@ -13,7 +13,7 @@ resources:
   controller: true
   domain: defn.dev
   group: meh
-  kind: Blarg
+  kind: Hrnngg
   path: github.com/defn/template-go-cli/api/v1alpha1
   version: v1alpha1
 - api:
@@ -22,7 +22,7 @@ resources:
   controller: true
   domain: defn.dev
   group: meh
-  kind: Hrnngg
+  kind: Blarg
   path: github.com/defn/template-go-cli/api/v1alpha1
   version: v1alpha1
 version: "3"
