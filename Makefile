@@ -10,6 +10,9 @@ ENVTEST ?= ./bin/setup-envtest
 ENVTEST_TOOLS_VERSION ?= latest
 ENVTEST_KUBEBUILDER_VERSION ?= 1.25.x!
 
+meh:
+	true
+
 all:
 	test -s $(CONTROLLER_GEN) || GOBIN=$(shell pwd)/bin go install sigs.k8s.io/controller-tools/cmd/controller-gen@$(CONTROLLER_TOOLS_VERSION)
 	$(CONTROLLER_GEN) rbac:roleName=manager-role crd webhook paths="./..." output:crd:artifacts:config=config/crd/bases
