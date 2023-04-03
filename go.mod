@@ -1,4 +1,4 @@
-module github.com/defn/template-go-cli
+module github.com/defn/template-go
 
 go 1.19
 

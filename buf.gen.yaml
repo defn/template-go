@@ -2,7 +2,7 @@ version: v1
 managed:
   enabled: true
   go_package_prefix:
-    default: github.com/defn/template-go-cli/gen
+    default: github.com/defn/template-go/gen
 plugins:
   - plugin: buf.build/protocolbuffers/go
     out: gen

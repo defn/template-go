@@ -9,8 +9,8 @@ import (
 
 	"github.com/bufbuild/connect-go"
 
-	petv1 "github.com/defn/template-go-cli/gen/pet/v1"
-	"github.com/defn/template-go-cli/gen/pet/v1/petv1connect"
+	petv1 "github.com/defn/template-go/gen/pet/v1"
+	"github.com/defn/template-go/gen/pet/v1/petv1connect"
 )
 
 var clientCmd = &cobra.Command{

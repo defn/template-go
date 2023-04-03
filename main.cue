@@ -2,7 +2,7 @@ package main
 
 input: {
 	terraform: {
-		organization: "template-go-cli"
+		organization: "template-go"
 		workspace:    "example"
 	}
 

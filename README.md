@@ -39,9 +39,9 @@ Load and verify bash completion:
 ```
 go install
 source /etc/profile.d/bash_completion.sh
-eval "$(template-go-cli completion bash)"
-complete -p template-go-cli
-template-go-cli <TAB>
+eval "$(template-go completion bash)"
+complete -p template-go
+template-go <TAB>
 ```
 
 ## Adding sub-commands

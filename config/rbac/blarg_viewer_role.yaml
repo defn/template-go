@@ -6,8 +6,8 @@ metadata:
     app.kubernetes.io/name: clusterrole
     app.kubernetes.io/instance: blarg-viewer-role
     app.kubernetes.io/component: rbac
-    app.kubernetes.io/created-by: template-go-cli
-    app.kubernetes.io/part-of: template-go-cli
+    app.kubernetes.io/created-by: template-go
+    app.kubernetes.io/part-of: template-go
     app.kubernetes.io/managed-by: kustomize
   name: blarg-viewer-role
 rules:

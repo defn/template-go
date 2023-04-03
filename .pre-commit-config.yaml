@@ -13,9 +13,9 @@ repos:
   - repo: https://github.com/tekwizely/pre-commit-golang
     rev: v1.0.0-rc.1
     hooks:
+      - id: go-imports
+        exclude: ^gen
       - id: go-mod-tidy
         exclude: ^gen
       - id: go-build-mod
-        exclude: ^gen
-      - id: go-imports
         exclude: ^gen

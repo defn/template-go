@@ -30,7 +30,7 @@ import (
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	mehv1alpha1 "github.com/defn/template-go-cli/api/v1alpha1"
+	mehv1alpha1 "github.com/defn/template-go/api/v1alpha1"
 	//+kubebuilder:scaffold:imports
 )
 

@@ -6,8 +6,8 @@ metadata:
     app.kubernetes.io/name: role
     app.kubernetes.io/instance: leader-election-role
     app.kubernetes.io/component: rbac
-    app.kubernetes.io/created-by: template-go-cli
-    app.kubernetes.io/part-of: template-go-cli
+    app.kubernetes.io/created-by: template-go
+    app.kubernetes.io/part-of: template-go
     app.kubernets.io/managed-by: kustomize
   name: leader-election-role
 rules:

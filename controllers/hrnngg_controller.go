@@ -24,7 +24,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	mehv1alpha1 "github.com/defn/template-go-cli/api/v1alpha1"
+	mehv1alpha1 "github.com/defn/template-go/api/v1alpha1"
 )
 
 // HrnnggReconciler reconciles a Hrnngg object
